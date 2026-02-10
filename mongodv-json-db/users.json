@@ -1,0 +1,9 @@
+{
+    "userId": "user001",
+    "nom": "Alice Dupont",
+    "email": "alice.dupont@example.com",
+    "articlesIds": [
+        "article101",
+        "article102"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "articleId": "article101",
+    "titre": "Introduction à MongoDB",
+    "contenu": "MongoDB est une base de données NoSQL orientée documents.",
+    "auteurId": "user001",
+    "commentairesIds": [
+        "commentaire501",
+        "commentaire502"
+    ]
+}

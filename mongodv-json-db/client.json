@@ -1,0 +1,10 @@
+{
+    "clientId": "client123",
+    "nom": "Bob Martin",
+    "adresse": "12 rue des Lilas, Paris",
+    "email": "bob.martin@example.com",
+    "commandesIds": [
+        "commande9001",
+        "commande9002"
+    ]
+}

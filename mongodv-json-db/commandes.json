@@ -1,0 +1,15 @@
+{
+    "commandeId": "commande9001",
+    "dateCommande": "2024-05-10T14:30:00Z",
+    "clientId": "client123",
+    "produits": [
+        {
+            "produitId": "produitA1",
+            "quantite": 1
+        },
+        {
+            "produitId": "produitB2",
+            "quantite": 2
+        }
+    ]
+}

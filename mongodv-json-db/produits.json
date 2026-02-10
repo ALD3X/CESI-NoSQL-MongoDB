@@ -1,0 +1,7 @@
+{
+    "produitId": "produitA1",
+    "nom": "Clavier mécanique",
+    "description": "Clavier rétroéclairé avec switches mécaniques",
+    "prix": 79.99,
+    "quantiteStock": 25
+}
