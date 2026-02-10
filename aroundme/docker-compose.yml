@@ -1,0 +1,41 @@
+services:
+  mongodb:
+    image: mongo:7
+    container_name: mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: rootpassword
+      MONGO_INITDB_DATABASE: places
+    volumes:
+      - mongo_data:/data/db
+      - ./init-mongo:/docker-entrypoint-initdb.d
+
+  api:
+    build: ./api
+    container_name: api
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongodb
+
+  # app_mobile:
+  #   build: ./app
+  #   container_name: app_mobile
+  #   restart: unless-stopped
+  #   ports:
+  #     - "19000:19000"
+  #     - "19001:19001"
+  #     - "19002:19002"
+  #   volumes:
+  #     - ./app:/app
+  #   stdin_open: true
+  #   tty: true
+  #   depends_on:
+  #     - api
+
+volumes:
+  mongo_data:
