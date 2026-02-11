@@ -1,0 +1,1 @@
+afin de gerer des commentaires, il suffit d'ajouter une collection commentaires et de lié ces commentaires à l'id d'un feedback et de copié le crud présent afin de l'adapteur à la collection commentaires

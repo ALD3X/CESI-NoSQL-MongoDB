@@ -1,0 +1,137 @@
+[
+    {
+        "_id": "65c90001e4b0a9d000000001",
+        "userId": "user_12345",
+        "type": "general",
+        "rating": 5,
+        "comment": "Très bonne expérience globale.",
+        "createdAt": "2026-02-01T09:10:00Z",
+        "status": "new"
+    },
+    {
+        "_id": "65c90002e4b0a9d000000002",
+        "userId": "user_12345",
+        "type": "feature",
+        "rating": 4,
+        "comment": "Un mode sombre serait apprécié.",
+        "createdAt": "2026-02-02T10:15:00Z",
+        "status": "reviewed"
+    },
+    {
+        "_id": "65c90003e4b0a9d000000003",
+        "userId": "user_12345",
+        "type": "bug",
+        "rating": 2,
+        "comment": "L'application plante parfois au démarrage.",
+        "createdAt": "2026-02-03T11:20:00Z",
+        "status": "new"
+    },
+    {
+        "_id": "65c90004e4b0a9d000000004",
+        "userId": "user_12345",
+        "type": "general",
+        "rating": 4,
+        "comment": "Interface claire et agréable.",
+        "createdAt": "2026-02-04T12:25:00Z",
+        "status": "resolved"
+    },
+    {
+        "_id": "65c90005e4b0a9d000000005",
+        "userId": "user_12345",
+        "type": "feature",
+        "rating": 3,
+        "comment": "Ajouter une recherche avancée serait utile.",
+        "createdAt": "2026-02-05T13:30:00Z",
+        "status": "new"
+    },
+    {
+        "_id": "65c90006e4b0a9d000000006",
+        "userId": "user_12345",
+        "type": "bug",
+        "rating": 1,
+        "comment": "Impossible de sauvegarder les paramètres.",
+        "createdAt": "2026-02-06T14:35:00Z",
+        "status": "reviewed"
+    },
+    {
+        "_id": "65c90007e4b0a9d000000007",
+        "userId": "user_12345",
+        "type": "general",
+        "rating": 5,
+        "comment": "Support client très réactif.",
+        "createdAt": "2026-02-07T15:40:00Z",
+        "status": "resolved"
+    },
+    {
+        "_id": "65c90008e4b0a9d000000008",
+        "userId": "user_12345",
+        "type": "feature",
+        "rating": 4,
+        "comment": "Bonne application, quelques améliorations possibles.",
+        "createdAt": "2026-02-08T16:45:00Z",
+        "status": "new"
+    },
+    {
+        "_id": "65c90009e4b0a9d000000009",
+        "userId": "user_12345",
+        "type": "bug",
+        "rating": 2,
+        "comment": "Temps de chargement un peu long.",
+        "createdAt": "2026-02-09T17:50:00Z",
+        "status": "reviewed"
+    },
+    {
+        "_id": "65c90010e4b0a9d000000010",
+        "userId": "user_12345",
+        "type": "general",
+        "rating": 5,
+        "comment": "Je recommande sans hésiter.",
+        "createdAt": "2026-02-10T18:55:00Z",
+        "status": "new"
+    },
+    {
+        "_id": "65c90011e4b0a9d000000011",
+        "userId": "user_67890",
+        "type": "general",
+        "rating": 4,
+        "comment": "Application fiable et stable.",
+        "createdAt": "2026-02-03T09:00:00Z",
+        "status": "new"
+    },
+    {
+        "_id": "65c90012e4b0a9d000000012",
+        "userId": "user_67890",
+        "type": "bug",
+        "rating": 3,
+        "comment": "Petit bug d'affichage sur mobile.",
+        "createdAt": "2026-02-04T10:00:00Z",
+        "status": "reviewed"
+    },
+    {
+        "_id": "65c90013e4b0a9d000000013",
+        "userId": "user_67890",
+        "type": "feature",
+        "rating": 4,
+        "comment": "Ajouter des notifications serait top.",
+        "createdAt": "2026-02-05T11:00:00Z",
+        "status": "new"
+    },
+    {
+        "_id": "65c90014e4b0a9d000000014",
+        "userId": "user_67890",
+        "type": "general",
+        "rating": 5,
+        "comment": "Très satisfait de l'expérience.",
+        "createdAt": "2026-02-06T12:00:00Z",
+        "status": "resolved"
+    },
+    {
+        "_id": "65c90015e4b0a9d000000015",
+        "userId": "user_67890",
+        "type": "bug",
+        "rating": 2,
+        "comment": "Crash occasionnel lors du login.",
+        "createdAt": "2026-02-07T13:00:00Z",
+        "status": "reviewed"
+    }
+]
